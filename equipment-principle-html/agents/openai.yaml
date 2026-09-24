@@ -1,0 +1,6 @@
+interface:
+  display_name: "设备原理交互演示"
+  short_description: "确认演示精细程度，审核参考图原理，按固定模板制作二维或三维交互网页"
+  default_prompt: "使用 $equipment-principle-html 制作设备工作原理演示，先确认 2D/3D 和精细程度，再提供生图提示词、审核我选定的图片并生成 HTML。"
+policy:
+  allow_implicit_invocation: true
